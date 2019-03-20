@@ -4,6 +4,10 @@
 
 `pip install slackinformer`
 
+* Export Slack API Key Environment Variable as SLACK_CLIENT_API_KEY
+
+`export SLACK_CLIENT_API_KEY=<YOUR_API_KEY>`
+
 * Import slackinformer module.
 
 `from slackinformer.slackinformer import send_slack_message`
