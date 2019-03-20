@@ -1,1 +1,1 @@
-from slackinformer import dummy
+from .slackinformer import dummy
