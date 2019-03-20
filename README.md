@@ -20,9 +20,9 @@
 
 * Create plot path. Suppose plot path is: output/map_epoch_plot.png
 
-`plot_path = os.path.join("output", "map_epoch_plot.png")`
+`img_path = os.path.join("output", "map_epoch_plot.png")`
 
 
 * Send message
 
-`send_slack_message(content, plot_path)`
+`send_slack_message(channel="#general", title="Image Title" content, img_path)`
