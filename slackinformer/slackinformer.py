@@ -4,7 +4,7 @@ import os
 from slackclient import SlackClient
 
 
-def send_slack_message(channel, title="", content, img_path):
+def send_slack_message(channel, title, content, img_path):
     if not os.path.isfile(img_path):
         print("File does not exist. Path: " + str(img_path))
         return
